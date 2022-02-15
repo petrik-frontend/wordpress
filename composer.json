@@ -1,0 +1,17 @@
+{
+    "name": "dik/wordpress",
+    "autoload": {
+        "psr-4": {
+            "Dik\\Wordpress\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Petrik Tanar",
+            "email": "tanar@petrik.hu"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^5.9"
+    }
+}
