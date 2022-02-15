@@ -28,11 +28,15 @@
             ],
             "wordpress/wp-content/plugins/{$name}/": [
                 "type:wordpress-plugin"
+            ],
+            "wordpress/wp-content/themes/{$name}/": [
+                "type:wordpress-theme"
             ]
         }
     },
     "require": {
         "johnpbloch/wordpress": "^5.9",
-        "wpackagist-plugin/wordpress-seo": "^18.1"
+        "wpackagist-plugin/wordpress-seo": "^18.1",
+        "wpackagist-theme/astra": "^3.7"
     }
 }
